@@ -1,5 +1,5 @@
 int i, menor = 0 , maior = 0, pMaior = 0, pMenor = 0;
-            int[] vetor = new int [5];
+            int[] vetor = new int [80];
 
             for (i = 0; i < vetor.Length; i++) 
             {
