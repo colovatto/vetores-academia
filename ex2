@@ -1,7 +1,7 @@
 int i;
-            int[] vetor = new int[5];
-            int[] vetor2 = new int[5];
-            int[] soma = new int[5];
+            int[] vetor = new int[20];
+            int[] vetor2 = new int[20];
+            int[] soma = new int[20];
 
             for (i = 0; i < vetor.Length; i++)
             {
