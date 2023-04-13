@@ -1,7 +1,7 @@
 int i;
-            int[] vetor = new int[3];
-            int[] vetor2 = new int[3];
-            double[] multi = new double[3];
+            int[] vetor = new int[10];
+            int[] vetor2 = new int[10];
+            double[] multi = new double[10];
 
             for (i = 0; i < vetor.Length; i++)
             {
