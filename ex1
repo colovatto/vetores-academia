@@ -1,0 +1,20 @@
+int i;
+            int[] vetor = new int[10];
+
+            for (i = 0; i < vetor.Length; i++)
+            {
+                Console.WriteLine("Informe um valor para o vetor " + i + ":");
+                vetor[i] = int.Parse(Console.ReadLine());
+            }
+
+            for (i = 0; i < vetor.Length; i++)
+            {
+                if (vetor[i] % 2 == 0)
+                {
+                    Console.WriteLine("Número " + vetor[i] + " é par");
+                }
+                else 
+                {
+                    Console.WriteLine("Número " + vetor[i] + " é impar");
+                }
+            }
