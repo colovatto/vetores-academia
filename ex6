@@ -1,0 +1,17 @@
+ int tamanho = 5;
+            int[] vetor =  new int [tamanho];
+            int[] vetorTroca = new int[tamanho];
+            int i;
+
+            for (i = 0; i < vetor.Length;  i++)
+            {
+                Console.WriteLine("Escreva um valor para a posição " + i);
+                vetor[i] = int.Parse(Console.ReadLine());
+                
+            }
+
+            for (i = 0; i < vetor.Length; i++)
+            {
+                vetorTroca[i] = vetor[tamanho - 1 - i];
+                Console.WriteLine("Vetor invertido: " + vetorTroca[i]);
+            }
