@@ -1,0 +1,16 @@
+int i;
+            int[] vetor = new int[20];
+
+            for (i = 0; i < vetor.Length; i++)
+            {
+                Console.WriteLine("Informe um valor para a posição " + i + ": ");
+                vetor[i] = int.Parse(Console.ReadLine());
+            }
+
+            for(i = 0; i < vetor.Length; i++)
+            {
+                if (vetor[i] % 2 == 1)
+                {                   
+                    Console.WriteLine("Número " + vetor[i] + " é primo e está na posição " + i);
+                }
+            }
