@@ -1,0 +1,21 @@
+int tamanho = 5;
+            double[] vetor =  new double [tamanho];
+            int[] posicao = new int[tamanho];
+            int i;
+
+            for (i = 0; i < vetor.Length;  i++)
+            {
+                Console.WriteLine("Escreva um valor para a posição " + i);
+                vetor[i] = int.Parse(Console.ReadLine());
+                
+            }
+
+            for (i = 0; i < vetor.Length; i++)
+            {
+                if (vetor[i]  > 0)
+                {
+                    posicao[i] = i;
+                    Console.WriteLine(("\n" + posicao[i]));
+                }
+
+            }
