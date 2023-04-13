@@ -1,0 +1,22 @@
+int i;
+            int[] vetor = new int[5];
+            int[] vetor2 = new int[5];
+            int[] soma = new int[5];
+
+            for (i = 0; i < vetor.Length; i++)
+            {
+                Console.WriteLine("Informe um valor para a posição " + i + " do primeiro vetor: ");
+                vetor[i] = int.Parse(Console.ReadLine());
+            }
+
+            for (i = 0; i < vetor2.Length; i++)
+            {
+                Console.WriteLine("Informe um valor para a posição " + i + " do segundo vetor: ");
+                vetor2[i] = int.Parse(Console.ReadLine());
+            }
+
+            for(i = 0; i < soma.Length; i++)
+            {
+                soma[i] = vetor[i] + vetor2[i];
+                Console.WriteLine("Soma dos vetores na posição " + i + " = " + soma[i]);
+            }
