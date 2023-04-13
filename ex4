@@ -1,0 +1,22 @@
+int i;
+            int[] vetor = new int[3];
+            int[] vetor2 = new int[3];
+            double[] multi = new double[3];
+
+            for (i = 0; i < vetor.Length; i++)
+            {
+                Console.WriteLine("Informe um valor para a posição " + i + " do primeiro vetor");
+                vetor[i] = int.Parse(Console.ReadLine());
+            }
+
+            for (i = 0; i < vetor2.Length; i++)
+            {
+                Console.WriteLine("Informe um valor para a posição " + i + " do segundo vetor");
+                vetor2[i] = int.Parse(Console.ReadLine());
+            }
+
+            for (i = 0; i < multi.Length; i++)
+            {
+                multi[i] = vetor[i] * vetor2[i];
+                Console.WriteLine("O resultado da multiplicação de " + vetor[i] + " x " + vetor2[i] + " = " + multi[i]);
+            }
